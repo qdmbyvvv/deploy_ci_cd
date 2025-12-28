@@ -33,7 +33,7 @@ jobs:
 
             if [ ! -d "\$APP_DIR" ]; then
               mkdir -p "\$APP_DIR"
-              git clone "\$APP_DIR"
+              git clone  https://github.com/qdmbyvvv/deploy_ci_cd.git "\$APP_DIR"
             fi
 
             cd "\$APP_DIR"
